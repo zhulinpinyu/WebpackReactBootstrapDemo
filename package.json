@@ -1,5 +1,6 @@
 {
   "name": "WebpackReactBootstrapDemo",
+  "homepage": "http://zhulinpinyu.github.io/WebpackReactBootstrapDemo",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
