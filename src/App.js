@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { Component } from 'react'
+import logo from './images/logo.svg'
+import docker from './images/docker.png'
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class App extends Component {
   render() {
@@ -18,6 +19,8 @@ class App extends Component {
         <button type="button" className="btn btn-default btn-lg">
           <span className="glyphicon glyphicon-star" aria-hidden="true"></span> Star
         </button>
+
+        <img src={docker} alt="docker"/>
       </div>
     );
   }
