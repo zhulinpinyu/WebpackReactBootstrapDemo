@@ -10,6 +10,7 @@ module.exports = {
     'babel-plugin-transform-class-properties',
     'babel-plugin-transform-object-rest-spread',
     'babel-plugin-transform-react-constant-elements',
+    'babel-plugin-react-html-attrs'
   ].map(require.resolve).concat([
     [require.resolve('babel-plugin-transform-runtime'), {
       helpers: false,
